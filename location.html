@@ -1,0 +1,146 @@
+<html>
+    <head>
+        <script src ="skrollr.min.js"></script>
+        <link href="locations.css" rel="stylesheet"/>
+        <script type ="text/javascript" src="jquery-3.3.1.min.js"></script>
+        <script src="JQUERYMain.js"></script>
+        <script src="_main.js"></script>
+
+    </head>
+    <body>
+            <div id="MenuIcon">
+                    <div id="MenuLine"></div>
+            </div>
+                
+            <div id="MainMenu">
+                <div id="logo">
+                    <a href="index.html"><img src="logo.png" height="75px" width="75px"/></a>
+                    </br></br>
+                </div>
+                    <ul>
+                            <li><a href = "parallax.html">BEGIN</a><div class="line"></div></li>
+                            <li><a href = "location.html">LOCATIONS</a><div class="line"></div></li>
+                            <li><a href = "#age_target">AGE</a><div class="line"></div></li>
+                            <li><a href = "#eth_target">ETHNICITIES</a><div class="line"></div></li>
+                            <li><a href = "#names_target">NAMES</a><div class="line"></div></li>
+                            <li><a href = "#con_target">CONCLUSION</a><div class="line"></div></li>
+                        </br></br>
+                    </ul>
+                
+                    <div id="close">
+                        <img src="Close.png" height="30px" width="30px"/>
+                    </div>
+                </div>  
+            
+            <div class ="title">LO</br>CAT</br>IONS<span class="blinking-cursor">|</span></div>
+            <hr>
+            <div id="intro">
+                <!-- <p>Using the following visualizations we will be able to see how evenly spread out the locations are for the 375 men I collected data from. The radius from Utica, NY was set to 100 miles. I think the hope would be that the men selected would be as close to Utica as possible. Once that's been swiped through then begin reaching out farther. That is definitely not what happened.</p> -->
+                <!-- <h1>↓</h1> -->
+            </br>
+            </div>
+            <div class ="img1">
+                <div class= "caption2">
+                    <span class="border">In this visualization we can see all the different cities that were collected. Size is not represented in this diagram, but the color of the dots represents different states. As you can see all except one are orange. The blue, center dot is an outlier. This dot actually represents five men who reside in Kingston, Canada! I guess it falls in the 100 mile radius, but the chances that I would drive all the way to Canada to meet the love of my life is slim.</span>
+                </div>
+            </div>
+            <div style ="position: relative;">
+                <div style="color:black; background-color:rgb(255, 255, 255); text-align: center;padding: 15px; text-align: center;font-size:20px; font-family:raleway-dots;">
+                    <b><p>We can also use size and color to get a better understanding of how many men are in each city</p></b>
+                </div>
+            </div>
+            <div class = "img2">
+                <div class="caption">
+                    <span class="border" style="background-color: transparent; font-size:24px; color:black">This is the same diagram as before except this one implements size into the visualization. This helps us to better understand which cities were the most popular when OkCupid was recommending men to me. It's obvious that Syracuse is the winner when it comes to size!</span>
+                </div>
+                <div class="caption2">
+                    <span class="border" style="background-color: transparent; font-size:24px; color:black">From the data it appears that 71 men were from Syracuse, 22 from Utica, 18 from Rome, and 5 from Kingston, Canada!</span>
+                </div>
+            </div>
+            <div style ="position: relative;">
+                <div style="color:black; background-color:rgb(255, 255, 255); text-align: center;padding: 15px; text-align: center;font-size:20px; font-family:raleway-dots;">
+                    <b><p>Another way that we can look at the location data is by placing the points on a map of New York.</p></b>
+                </div>
+                </div>
+            <div class = "img3">
+                <div class="caption">
+                    <span class="border" style="background-color: transparent; font-size:20px; color:black">Here are the points placed on the map, for some reason the Canadian points don't appear in this figure. However, we can see almost a clear circle where the radius ends. It also shows a lot of areas that are very sparce, perhaps OkCupid isn't very popular in those areas. From where I live, this radius really covers the entire center of NY State!</span>
+                </div>
+            </div>
+            <div style ="position: relative;">
+                <div style="color:black; background-color:rgb(255, 255, 255); text-align: center;padding: 15px; text-align: center;font-size:20px; font-family:raleway-dots;">
+                    <!-- <b> <p>We can also use size and color to get a better understanding of how many men are in each city</p>
+                       </b> -->
+                     </div>
+            </div>
+            <div class = "img4">
+                    <div class="caption">
+                        <span class="border" style="background-color: transparent; font-size:25px; color:black">Here is the same map and points, but now size and color are used to better represent the amount of men in each city. The large orange dot is Syracuse, and the largest yellow dot is Utica.</span>
+                    </div>
+                </div>
+            <div class ="title"><a name="age_target"></br>A</br>G</br>E<span class="blinking-cursor">|</span><hr></br></div>
+             </a> 
+                
+                <div id="intro">
+                    <!-- <p>Using the following visualizations we will be able to see how evenly spread out the locations are for the 375 men I collected data from. The radius from Utica, NY was set to 100 miles. I think the hope would be that the men selected would be as close to Utica as possible. Once that's been swiped through then begin reaching out farther. It does not appear that this is what happened.</p>
+                    <h1>↓</h1> -->
+            </div>
+            <div class = "img5">
+                    <div class="caption3">
+                        <span class="border" style="background-color: transparent; font-size:25px; color:black">This diagram was suppose to show the amount of men in each age group. However instead of showing the ages, the numbers on the dots represent the number of men that are that specific age... The dot that says 54 means that 54 men were of the age 24, the largest amount. The smallest group was 18 and 19, with only 21 men each.</span>
+                    </div>
+                </div>
+            </div>
+            <div class ="title"><a name="eth_target">ETH</br>NICI</br>TIES<span class="blinking-cursor">|</span></div>
+            </a> 
+            <hr>
+            <div id="intro">
+                <!-- <p>Using the following visualizations we will be able to see how evenly spread out the locations are for the 375 men I collected data from. The radius from Utica, NY was set to 100 miles. I think the hope would be that the men selected would be as close to Utica as possible. Once that's been swiped through then begin reaching out farther. It does not appear that this is what happened.</p>
+                <h1>↓</h1> -->
+        </div>
+        <div class = "img6">
+                <div class="caption4">
+                    <span class="border" style="background-color: transparent; font-size:16px; color:black">This visualization is slightly different from the others shown. I thought that this type of visualization did a better job at representing the different types of ethnicities that each man claimed to be. It's interesting because they can place these identifiers in any order and out of the nearly 400 men most of them wanted it to be knonw that they were a "straight man" before anything else. Some wanted it to be known that they are white and speak english. THere is a very small percentage of African American, Asian, and multi-ethnic. Which is not that surprising for upstate NY.</span>
+                </div>
+            </div>
+        <div style ="position: relative;">
+            <div style="color:black; background-color:rgb(255, 255, 255); text-align: center;padding: 15px; text-align: center;font-size:20px; font-family:raleway-dots;">
+                     
+            </div>
+        </div>
+        <div class = "img7">
+                <div class="caption5">
+                    <span class="border" style="background-color: transparent; font-size:25px; color:black">This shows the main identifiers that the men used most. As we can see most men started by saying they are white, straight, and speak english. This is basically a continuation of the previous diagram but it shows it in a different way. The different type of graph gives us similar information in a different way.</span>
+                </div>
+            </div>
+        <div class ="title"><a name="names_target"> </br></a>NA</br>MES<span class="blinking-cursor">|</span><hr></br></div>
+        
+        
+        <div id="intro">
+            <!-- <p>Using the following visualizations we will be able to see how evenly spread out the locations are for the 375 men I collected data from. The radius from Utica, NY was set to 100 miles. I think the hope would be that the men selected would be as close to Utica as possible. Once that's been swiped through then begin reaching out farther. It does not appear that this is what happened.</p>
+            <h1>↓</h1> -->
+    </div>
+    <div class = "img8">
+            <div class="caption6">
+                <span class="border" style="background-color: transparent; font-size:20px; color:black">This diagram shows the most popular names of the 375 men! The most popular was the name Matt, quickly followed by Josh. This is my favorite diagram because of the really nice shape that it forms. Names are very important as they are our main form of identification, so it's really interesting to see how many different and similar names this group of men had.</span>
+            </div>
+        </div>
+    <div class ="title"><a name="con_target">CON</br>CLU</br>SION<span class="blinking-cursor">|</span></div>
+    </a> 
+    <hr>
+</br></br></br></br></br></br></br>
+    <div class = "img9">
+            <div id="intro">
+                    <p>I had a lot of fun making this website and doing the project for the last few months. From collecting the data of nearly 400 men, using tableau to easily create data visualizations, and then spending hours on end making this website, I have spent a little over 90 hours working on this. It might not seem like much, but I learn a lot and I can confidently say that I'm happy with the final product. It's far from perfect, but the one thing that I would definitely add is making the website responsive. It's not responsive at all and display larger or smaller than my laptop will look pretty terrible. But it looks good from where I'm sitting!</br> </br>We use data analysis to answer the questions we have and we use visualizations to help us better understand the data and comprehend it more quickly and efficiently. I think I achieved that with the visualizations I created, and I answered the questions that I had regarding dating website. And even though my profile was as vague as possible, and my photo was a flower, I still received messages everyday about another person liking my profile. In total I got approximately 250 likes...I'm not really sure what that says about the people in Upstate NY using OkCupid, but I'm still flattered either way. I hope this was somewhat fun to look at and see a little farther into the strange world of online dating. </br></br></br></p>
+                    <!-- <h1>↓</h1> -->
+        <!-- <div class="caption6"> -->
+            <!-- <span class="border" style="background-color: white; font-size:20px; color:black">This diagram shows the most popular names of the 375 men! The most popular was the name Matt, quickly followed by Josh. This is my favorite diagram because of the really nice shape that it forms. Names are very important as they are our main form of identification, so it's really interesting to see how many different and similar names this group of men had.</span> -->
+        </div>
+    </div>
+    <div id="intro">
+        <!-- <p>Using the following visualizations we will be able to see how evenly spread out the locations are for the 375 men I collected data from. The radius from Utica, NY was set to 100 miles. I think the hope would be that the men selected would be as close to Utica as possible. Once that's been swiped through then begin reaching out farther. It does not appear that this is what happened.</p>
+        <h1>↓</h1> -->
+</div>
+               
+    </body>
+</html>
